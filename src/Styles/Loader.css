@@ -1,0 +1,64 @@
+.Contenedor {
+    background-color: #121f45f3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+.logo{
+  color:#e5e5e5;
+}
+body, html {
+  width: 100vw; /* 100% del ancho de la ventana del navegador */
+  overflow: auto;
+  /* Para ocultar la barra de desplazamiento */
+  background-color: #121f45f3;
+  color: white;
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el div */
+  background-position: center; /* Posiciona la imagen en el centro del div */
+  background-repeat: no-repeat;
+  cursor: none;
+
+}
+
+.cursorOne{
+  width: 5px;
+  height: 5px;
+  background-color: white;
+}
+.cursorTwo{
+  width: 30px;
+  height: 30px;
+  border: 2px solid hsla(0, 0%, 100%, 0.5);
+  transition: left 0.3s, top 0.3s;
+}
+.cursorTwo,
+.cursorOne{
+  top: 0;
+  left: 0;
+  transform: translate(-50%,-50%);
+  position: fixed;
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+@keyframes rippleEffect {
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.contenedor2{
+  display: flex;
+}
+.cPrincipal{
+  background-color: #121f45f3;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+}

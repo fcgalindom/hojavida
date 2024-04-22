@@ -1,0 +1,7 @@
+.contenedor{
+    min-height: 100vh;
+    background-image: url('../../public/OIG2.jpeg');
+    display: flex;
+    color: white;
+
+}
