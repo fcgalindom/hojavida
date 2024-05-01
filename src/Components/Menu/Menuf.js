@@ -16,7 +16,7 @@ function Menuf() {
                     <CircleIcon style={{color:'blue', fontSize: 12  ,marginLeft:'0.5rem' , marginBottom:'0.4rem'}}/>  
                 </div>
                 <div>
-                    <h2>WEB DEVELOPER</h2>
+                    <h2>WEB DEVELOPERjlkkk</h2>
                 </div>
                 
 
